@@ -199,10 +199,10 @@
                     </div>
     
                     <form action="php/contactform.php" class="contact-form" method="post">
-                        <input name="name" type="text" class="nameZone" placeholder="Name">
-                        <input name="email" type="text" class="emailZone" placeholder="Email Address">
-                        <input name="subject" type="text" class="subjectZone" placeholder="Subject">
-                        <textarea name="message" class="messageZone" placeholder="Message"></textarea>
+                        <input name="name" type="text" class="nameZone" placeholder="Name" required>
+                        <input name="email" type="text" class="emailZone" placeholder="Email Address" required>
+                        <input name="subject" type="text" class="subjectZone" placeholder="Subject" required>
+                        <textarea name="message" class="messageZone" placeholder="Message" required></textarea>
                         <input type="submit" name="submit" value="Send Message" class="btn">
                     </form>
                 </div>
