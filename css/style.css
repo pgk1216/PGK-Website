@@ -116,6 +116,14 @@ html {
     background-attachment: fixed;
 }
 
+#home.shoes {
+    height: 100vh;
+    min-height: 500px;
+    background: url(../img/shoe_closet.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 #home .wrapper {
     display: flex;
     align-items: center;
