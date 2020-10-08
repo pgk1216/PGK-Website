@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+    text-decoration: none;
+    background-color: #cf7c00;
+}
+
+.error-page {
+    text-align: center;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.error-page h1 {
+    font-size: 200px;
+}
+
+.error-page h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.error-page p {
+    margin: 10px 0;
+}
+
+.home-button {
+    margin: 10px 0;
+    padding: 15px 30px;
+    max-width: 300px;
+    background-color: #cf7c00;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.home-button:hover {
+    color: #cf7c00;
+    background-color: #fff;
+}
